@@ -1,3 +1,5 @@
+![logo](peter6prod.png)
+
 # germLibCrypt
 librairie déstinée au stagiaires pour simplifier le cryptage
 
