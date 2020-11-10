@@ -35,7 +35,7 @@ String message = "«Si tu as la chance d'être différent, ne change jamais.» -
 
 Ce qui donne:
 
-```cmd
+```zsh
 Message d'origine: 
 Tout problème simple a une solution complexe... qui ne fonctionne pas. Olivier Lockert
 Voir sur https://citations.ouest-france.fr/citation-olivier-lockert/probleme-simple-solution-complexe-fonctionne-13756.html
