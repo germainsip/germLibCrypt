@@ -10,7 +10,7 @@ librairie déstinée au stagiaires pour simplifier le cryptage
 
 ## Utilisation
 
-Après avoir inclus la librairie à votre projet utilisez la classe static Manabox et ses méthode:
+Après avoir inclus la librairie à votre projet utilisez la classe static `Manabox` et ses méthodes:
 
 ```java
 String test1 = ManaBox.encrypt("c'est trop bien ça marche !!!");
