@@ -3,8 +3,9 @@
 # germLibCrypt
 librairie déstinée au stagiaires pour simplifier le cryptage
 
-Pour l'utiliser, ajoutez le jar dans les dépendances du projet **ProjectStructure->Librairies**
-Pour la javadoc ajoutez le jar javadoc à la librairie que vous venez d'ajouter.
+- Pour l'utiliser récupérez les deux jar [ici](https://github.com/germainsip/germLibCrypt/releases/tag/1.0)
+- Ajoutez le jar dans les dépendances du projet **ProjectStructure->Librairies**
+- Pour la javadoc ajoutez le jar javadoc à la librairie que vous venez d'ajouter.
 
 
 ## Utilisation
