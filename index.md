@@ -1,37 +1,19 @@
-## Welcome to GitHub Pages
+![logo](peter6prod.png)
 
-You can use the [editor on GitHub](https://github.com/germainsip/germLibCrypt/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+# germLibCrypt
+librairie déstinée au stagiaires pour simplifier le cryptage
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- Pour l'utiliser récupérez les deux jar [ici](https://github.com/germainsip/germLibCrypt/releases/tag/1.0)
+- Ajoutez le jar dans les dépendances du projet **ProjectStructure->Librairies**
+- Pour la javadoc ajoutez le jar javadoc à la librairie que vous venez d'ajouter.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Utilisation
 
-```markdown
-Syntax highlighted code block
+Après avoir inclus la librairie à votre projet utilisez la classe static `Manabox` et ses méthodes:
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/germainsip/germLibCrypt/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+```java
+String test1 = ManaBox.encrypt("c'est trop bien ça marche !!!");
+System.out.println(test1);
+System.out.println(ManaBox.decrypt(test1));
+```        
